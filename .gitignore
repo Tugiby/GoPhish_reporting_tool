@@ -1,0 +1,51 @@
+﻿# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------------- Env / Config (GIZLI - sakIn commit etme) ----------------
+*.env
+.env
+*_config*.json
+.gophish_config*.json
+config*.json
+*.ini
+
+# ---------------- Log dosyalari ----------------
+*.log
+GOPHISH_HATA_LOG.txt
+gophish_report.log
+
+# ---------------- Uygulama calisma/cache dosyalari ----------------
+cache/
+*/cache/
+*.cache
+
+# ---------------- IDE / OS ----------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---------------- Proje dosyalari ----------------
+assets/
+*.png
+*.jpg
+*.jpeg
+*.ico
+
+# ---------------- Rapor ciktisi (guvenlik) ----------------
+*_Rapor*
+Trend_Analizi*
+*.docx
+*.xlsx
+
+# ---------------- Yedek ve gecici dosyalar ----------------
+*.bak*
+_*.py
